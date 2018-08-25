@@ -34,6 +34,7 @@ def play (songs)
   
   if getuser = songs 
     puts "Playing #{songs}"
-    
+  else 
+    puts "Invalid input, please try again"
   
 end 
