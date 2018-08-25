@@ -26,7 +26,10 @@ def list (songs)
   while counter < 9 
   puts songs [counter]
   counter +=1
+      binding.pry
+
 end 
+
 end 
 
 def play (songs)
