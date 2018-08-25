@@ -26,8 +26,9 @@ def list (songs)
   puts songs [counter]
   counter +=1
 end 
-  
-  
+end 
+
+def play
   
   
 end 
