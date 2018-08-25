@@ -35,10 +35,11 @@ def play (songs)
   
   if getuser = songs 
     puts "Playing #{songs}"
+        binding.pry
+
   else 
     puts "Invalid input, please try again"
   
 end
-    binding.pry
 
 end
