@@ -51,18 +51,26 @@ def exit_jukebox
   puts "Goodbye"
 end 
 
-def run 
-  help
-  puts "Please enter a command:"
-  getinput= gets.chomp
-  
-
-  loop do 
-    getinput= gets.chomp
-    if getinput == "exit"
-      break 
-      
-    end 
+def run(songs)
+  #this method is the same as in jukebox.rb	  help
+  while true
+    puts "Please enter a command:"
+    command = gets.chomp
+    case command
+      when "list"
+        list(songs)
+      when "play"
+        play(songs)
+      when "help"
+        help
+      when "exit"
+        exit_jukebox
+        break
+      else
+        help
+    end
+  end
+end	
 
     
  
