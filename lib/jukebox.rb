@@ -32,11 +32,11 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
  getuser = gets.chomp
-  
+      binding.pry
+
   if getuser = songs 
     puts "Playing #{songs}"
-        binding.pry
-
+    
   else 
     puts "Invalid input, please try again"
   
