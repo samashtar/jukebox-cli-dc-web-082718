@@ -56,6 +56,8 @@ def run
   puts "Please enter a command:"
   getinput= gets.chomp
   
-  
+  until getinput == "exit"
+  loop do 
+    
   
 end 
