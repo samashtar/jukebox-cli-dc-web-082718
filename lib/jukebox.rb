@@ -58,6 +58,8 @@ def run
   
   until getinput == "exit"
   loop do 
+    getinput= gets.chomp
+
     
   
 end 
