@@ -35,7 +35,7 @@ def play (songs)
   puts "Please enter a song name or number:"
  getuser = gets.chomp
 
-  if getuser = songs 
+  if getuser == songs 
     puts "Playing #{songs}"
     
   else 
