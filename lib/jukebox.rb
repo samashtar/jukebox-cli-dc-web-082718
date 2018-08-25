@@ -61,5 +61,5 @@ def run
     getinput= gets.chomp
 
     
-  
+ end 
 end 
