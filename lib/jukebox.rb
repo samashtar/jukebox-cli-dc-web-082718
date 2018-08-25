@@ -20,7 +20,13 @@ def help
 "
 end 
 
-def list 
+def list (songs)
+  counter=0
+  while counter < 9 
+  puts songs [counter]
+  counter +=1
+end 
+  
   
   
   
