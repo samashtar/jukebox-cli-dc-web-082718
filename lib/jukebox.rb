@@ -37,7 +37,8 @@ def play (songs)
     puts "Playing #{songs}"
   else 
     puts "Invalid input, please try again"
-    binding.pry
   
-end 
+end
+    binding.pry
+
 end
